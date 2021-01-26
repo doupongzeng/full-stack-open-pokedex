@@ -17,4 +17,9 @@ jobs:
       - name: Time
         run: date
       - name: Files
-        run: ls
+        run: ls -l
+  ni_hao_shi_jie:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say nihao
+        run: echo "Ni Hao!"
