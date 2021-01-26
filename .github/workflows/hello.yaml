@@ -18,7 +18,7 @@ jobs:
         run: date
       - name: Files
         run: ls -l
-  ni_hao_shi_jie:
+  Second_job:
     runs-on: ubuntu-latest
     steps:
       - name: Say nihao
