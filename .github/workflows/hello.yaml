@@ -12,3 +12,5 @@ jobs:
       - name: Say hello
         run: |
           echo "Hello World!"
+      - name: Second step
+        run: echo "2222"
